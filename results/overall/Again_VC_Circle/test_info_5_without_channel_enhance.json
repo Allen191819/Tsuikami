@@ -3,7 +3,7 @@
     "model_src": "test_ckpt/CKPT+2025-11-07+10-23-03+00_circle_againvc",
     "vc_folder": "Dataset/audio/Again_test_40spk/wav",
     "orig_folder": "Dataset/audio/LibriSpeech/LibriSpeech_test-clean_40spk_flac",
-    "output_folder": "results/eval_result/overall_1119/Again_VC_Circle",
+    "output_folder": "results/eval_result/overall/Again_VC_Circle",
     "phone_channel": false,
     "channel": "G.711",
     "channel_enhance": false,
