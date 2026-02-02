@@ -1,9 +1,9 @@
 {
     "model": "cutmix",
-    "model_src": "/mnt/home/mazhongming/Tsuikami/test_ckpt/CKPT+2025-10-31+10-07-52+00_circle_freevc",
-    "vc_folder": "/mnt/data/mazhongming/Dataset/audio/Free_VC_Librispeech_test_clean",
-    "orig_folder": "/mnt/data/mazhongming/Dataset/audio/LibriSpeech/LibriSpeech_test-clean_40spk_flac",
-    "output_folder": "results/eval_result/overall_1119/Free_VC_Circle",
+    "model_src": "test_ckpt/CKPT+2025-10-31+10-07-52+00_circle_freevc",
+    "vc_folder": "Dataset/audio/Free_VC_Librispeech_test_clean",
+    "orig_folder": "Dataset/audio/LibriSpeech/LibriSpeech_test-clean_40spk_flac",
+    "output_folder": "results/eval_result/overall/Free_VC_Circle",
     "phone_channel": false,
     "channel": "G.711",
     "channel_enhance": false,
