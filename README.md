@@ -49,17 +49,17 @@ Key CSV fields:
 
 ## 5. Generate VC Audio
 
-Using the selected voice conversion algorithm, generate converted speech (vc_audio) based on
-src_audio and tar_audio specified in the training and test CSV files.
+Using the selected voice conversion algorithm, generate converted speech (`vc_audio`) based on
+`src_audio` and `tar_audio` specified in the training and test CSV files.
 
 + Training set: used for model learning
 + Test set: used for evaluation
 
-The generated vc_audio paths should be written back to the corresponding CSV files.
+The generated `vc_audio` paths should be written back to the corresponding CSV files.
 
 ## 6. Train / Validation Split
 
-The VC training data is organized as follows:
+According to the VC training CSV file in Step 4, you need to split the dataset into training and dev sets with a 95:5 ratio. The VC training data is organized as follows:
 
 ```
 data/csv/DDDMVC_train_data/
@@ -113,3 +113,4 @@ scripts/overall/circle.sh
 ```
 
 Modify model paths and evaluation settings as needed before running.
+
