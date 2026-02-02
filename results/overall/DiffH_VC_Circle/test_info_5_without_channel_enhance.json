@@ -1,0 +1,57 @@
+{
+    "model": "cutmix",
+    "model_src": "/mnt/home/mazhongming/Tsuikami/test_ckpt/CKPT+2025-10-19+09-58-03+00_circle_diffhvc",
+    "vc_folder": "/mnt/data/mazhongming/Dataset/audio/Diff_VC_Librispeech_test_clean",
+    "orig_folder": "/mnt/data/mazhongming/Dataset/audio/LibriSpeech/LibriSpeech_test-clean_40spk_flac",
+    "output_folder": "results/eval_result/overall_1119/DiffH_VC_Circle",
+    "phone_channel": false,
+    "channel": "G.711",
+    "channel_enhance": false,
+    "num_orig_samples": 5,
+    "add_noise": false,
+    "noise_file": null,
+    "accuracies": {
+        "1": {
+            "acc": 0.9724038461538461,
+            "95CI_low": 0.9705271868234968,
+            "95CI_high": 0.974164191605077
+        },
+        "2": {
+            "acc": 0.9874679487179487,
+            "95CI_low": 0.9861721908385433,
+            "95CI_high": 0.9886436836794145
+        },
+        "5": {
+            "acc": 0.9949358974358974,
+            "95CI_low": 0.9940850364752519,
+            "95CI_high": 0.9956648967423364
+        },
+        "10": {
+            "acc": 0.9980769230769231,
+            "95CI_low": 0.997525654837372,
+            "95CI_high": 0.9985055562882158
+        }
+    },
+    "eer": 0.02173076923076923,
+    "eer_threshold": 0.4559612274169922,
+    "eer_95CI_low": 0.020590553919250815,
+    "eer_95CI_high": 0.02277389731044797,
+    "genuine_trials": 31200,
+    "impostor_trials": 1216800,
+    "TAR@FAR=0.1%": 0.8845833539962769,
+    "threshold@FAR=0.1%": 0.5424193739891052,
+    "actual_FAR@0.1%": 0.0009993425378040763,
+    "TAR_95CI_low@FAR=0.1%": 0.880990414914126,
+    "TAR_95CI_high@FAR=0.1%": 0.8880815607805926,
+    "TAR@FAR=0.01%": 0.7629486918449402,
+    "threshold@FAR=0.01%": 0.5863645672798157,
+    "actual_FAR@0.01%": 9.944115713346482e-05,
+    "TAR_95CI_low@FAR=0.01%": 0.7581976386778535,
+    "TAR_95CI_high@FAR=0.01%": 0.7676350547632227,
+    "Cllr": 0.24095469703970054,
+    "Cllr_95CI_low": 0.2339414790675295,
+    "Cllr_95CI_high": 0.24883189644715367,
+    "minCllr": 0.23715070388870854,
+    "minCllr_95CI_low": 0.22883059912683876,
+    "minCllr_95CI_high": 0.24314423405022034
+}
