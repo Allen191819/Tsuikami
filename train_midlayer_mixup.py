@@ -25,7 +25,6 @@ Authors
  * Mirco Ravanelli 2021
 """
 import os
-os.environ["SWANLAB_LOG_DIR"] = "/mnt/data/mazhongming/Tsuikami/swanlab"
 import sys
 import torch
 
