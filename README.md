@@ -114,3 +114,6 @@ scripts/overall/circle.sh
 
 Modify model paths and evaluation settings as needed before running.
 
+## 10. Pre-trained Model
+
+You can alse download pre-trained checkpoint from the Releases section of the current github repository or [cloud](https://drive.google.com/file/d/1jKoG7f-5i1g1eZYSYPZc-ZnzJUdAEwLr/view).
